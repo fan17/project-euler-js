@@ -1,0 +1,34 @@
+{
+  "name": "project-euler",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "build": "babel src -d lib"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jedrzejczak/project-euler-js.git"
+  },
+  "author": "jedrzejczak <jedrzejczak.andrzej89@gmail.com> (https://github.com/jedrzejczak)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jedrzejczak/project-euler-js/issues"
+  },
+  "homepage": "https://github.com/jedrzejczak/project-euler-js#readme",
+  "dependencies": {},
+  "jest": {
+    "transform": {
+      "^.+\\.jsx?$": "babel-jest"
+    }
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.2.3",
+    "@babel/core": "^7.2.2",
+    "@babel/preset-env": "^7.2.3",
+    "babel-core": "^7.0.0-0",
+    "babel-jest": "^23.6.0",
+    "jest": "^23.6.0"
+  }
+}
