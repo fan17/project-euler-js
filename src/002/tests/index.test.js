@@ -1,6 +1,6 @@
 import findTheSumOfFibocciEvenNumberWhichLessThan, {
   fibonacciLessThan
-} from "../002";
+} from "../index";
 
 describe("fibonacciLessThan", () => {
   it("should return valid data", () => {

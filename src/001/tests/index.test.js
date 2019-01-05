@@ -1,4 +1,4 @@
-import calculate from "../001";
+import calculate from "../index";
 
 describe("001", () => {
   it("should be 0 for 0", () => {

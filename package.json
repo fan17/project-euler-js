@@ -21,7 +21,12 @@
   "jest": {
     "transform": {
       "^.+\\.jsx?$": "babel-jest"
-    }
+    },
+    "testPathIgnorePatterns": [
+      "/node_modules/",
+      "/src/template/",
+      "/lib"
+    ]
   },
   "devDependencies": {
     "@babel/cli": "^7.2.3",
